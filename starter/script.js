@@ -1,5 +1,5 @@
-let js = 'amazing';
-alert('JavaScript is for FUN!')
+// let js = 'amazing';
+// alert('JavaScript is for FUN!')
 40+8+23-10;
 console.log(40+8+23-10);
 // LECTURE: Values and Variables
@@ -16,3 +16,31 @@ let continent = 'Africa';
 let population = '20m';
 
 // LECTURE: Data Types
+/* There are 7 Data Types 
+- Number : Floating point numbers and it's used for decimal and integers like let age = 19;
+- String : Sequance of characters and it's used for text like  let fristName = 'Abdimalik';
+- Boolean Logical type that can only be true or false used for taking decisions let fullAge =  true;
+- Undefined ;
+- Null ;
+- Symbol ;
+- Bigint ; */
+
+let jS = true;
+console.log(jS);
+
+console.log(typeof true);
+console.log(typeof jS);
+console.log(typeof 19);
+
+//Dynamic typing
+
+jS = 'Yes';
+
+// Assigment of Lecture 11 Data Types
+
+let isIsland = 140;
+let language;
+console.log(typeof isIsland);
+console.log(typeof population);
+console.log(typeof country);
+console.log(typeof language);
