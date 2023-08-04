@@ -87,3 +87,9 @@ console.log(ageAbdimalik < 19);
 console.log(now - 2004 < now - 2005);
 
 // Lecture 14  Operator presedence
+
+let g, y;
+g = y = 25 - 10 - 5;
+console.log(g);
+const avgAge = ageAbdimalik + asiyaAge / 2;
+console.log(ageAbdimalik, asiyaAge, avgAge)
