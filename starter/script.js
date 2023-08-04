@@ -92,4 +92,15 @@ let g, y;
 g = y = 25 - 10 - 5;
 console.log(g);
 const avgAge = ageAbdimalik + asiyaAge / 2;
-console.log(ageAbdimalik, asiyaAge, avgAge)
+console.log(ageAbdimalik, asiyaAge, avgAge);
+
+// Assigment For the 13 and 14 Lectures
+let myCountaryPopulation = 20000000; // Q1
+console.log(myCountaryPopulation /= 2);// Q1
+console.log(myCountaryPopulation += 1000000);// Q2
+let finland = 6000000; // Q3
+console.log(myCountaryPopulation > finland); // Q3
+let description = 'Portugal is in Europe, and its 11 millionpeople speak portuguese';
+
+
+
