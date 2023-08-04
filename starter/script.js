@@ -43,7 +43,7 @@ let language;
 console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
-console.log(typeof language);
+// console.log(typeof language);
 
 // LECTURE: let, const and var
 // this case called reasigning value of variable or mutation;
@@ -55,3 +55,6 @@ const birthYear = 2004;
 console.log(age);
 console.log(birthYear);
 
+// Assigment let, const and var
+language = 'Somali';
+console.log(language);
