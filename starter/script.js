@@ -44,3 +44,14 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+
+// LECTURE: let, const and var
+// this case called reasigning value of variable or mutation;
+let age = 18;
+age = 19;
+//  when you use const for declaring a variable and you can't change again ;
+const birthYear = 2004;
+
+console.log(age);
+console.log(birthYear);
+
