@@ -1,3 +1,4 @@
+/*
 // let js = 'amazing';
 // alert('JavaScript is for FUN!')
 40+8+23-10;
@@ -23,7 +24,7 @@ let population = '20m';
 - Undefined ;
 - Null ;
 - Symbol ;
-- Bigint ; */
+- Bigint ; 
 
 let jS = true;
 console.log(jS);
@@ -124,4 +125,8 @@ const BMIAbdimalik = culeskaAbdimalik / (dhirirkaAbdimalik ** 2);
 const BMIAsiya = culeskaAsiya / (dhirirkaAsiya ** 2);
 const abdimalikKaBadanAsiya = BMIAbdimalik > BMIAsiya;  
 console.log(BMIAbdimalik, BMIAsiya, abdimalikKaBadanAsiya);
-
+*/
+// LECTURE 17: Strings and Template Literals
+const fristName = 'Abdimalik';
+const job = 'Coder';
+const birthYear = 2004;
