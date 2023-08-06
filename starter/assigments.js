@@ -50,8 +50,13 @@ console.log(description);
 console.log(`${country} is in ${continent}, and its ${number} ${population} speak ${language}`);
 */
 
-// Lecture 18 : Taking Decisions: if / else Statements
+//  Assigment Lecture 18 : Taking Decisions: if / else Statements
 let mycountry = 20;
 
 console.log("Portugal's population is above average");
 // I didn't understand this assigment 
+
+// Lecture 19 was Coding Challenge #2
+
+// Assigment LECTURE 20: Type Conversion and Coercion
+
