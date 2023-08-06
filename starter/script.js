@@ -102,3 +102,25 @@ if(birthYear <= 2000) {
 }
 console.log(centery);
 */
+// LECTURE 20: Type Conversion and Coercion
+//  type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear); // 1991 , '1991'
+console.log(Number(inputYear) + 18); // 2009
+
+console.log(Number('Abdimalik')); // NaN
+
+
+console.log(String(23), 23);
+
+// type coertion
+console.log(' I am ' + 23 + " years old");
+console.log(' I am ' + String(23) + " years old");
+
+console.log('23' - '10' - '3');
+console.log('23' / '2');
+
+
+let n = '1' + 2;
+n = n - 1;
+console.log(n);
