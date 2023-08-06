@@ -38,7 +38,7 @@ console.log(myCountaryPopulation > finland); // Q3
 let description = 'Portugal is in Europe, and its 11 millionpeople speak portuguese';
 
 // Lecture 15 and 16 are coding challenges
-*/
+
 // Assigment  LECTURE 17: Strings and Template Literals
 const description = 'Portugal is in Europe, and its 11 millionpeople speak portuguese';
 const country = 'Portugal';
@@ -48,3 +48,10 @@ const population = ['millionpeople'];
 const language = 'portuguese';
 console.log(description);
 console.log(`${country} is in ${continent}, and its ${number} ${population} speak ${language}`);
+*/
+
+// Lecture 18 : Taking Decisions: if / else Statements
+let mycountry = 20;
+
+console.log("Portugal's population is above average");
+// I didn't understand this assigment 
