@@ -166,4 +166,7 @@ if (fav === 23) {  // 23 = 23 couse of Number functins wich changes strings to n
 }
 
 if (fav !== 23) console.log("Why not 23");
+
+// LECTURE 23: Logical Operators
+it was an explanation only 
 */
