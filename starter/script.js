@@ -101,7 +101,7 @@ if(birthYear <= 2000) {
      centery = 21;
 }
 console.log(centery);
-*/
+
 // LECTURE 20: Type Conversion and Coercion
 //  type conversion
 const inputYear = '1991';
@@ -124,3 +124,43 @@ console.log('23' / '2');
 let n = '1' + 2;
 n = n - 1;
 console.log(n);
+
+// Lecture 21: Truthy and Falsy Values
+// 5 False values: 0, '', undefined, null NaN
+console.log(Boolean(0)); // false
+console.log(Boolean(undefined)); // false
+console.log(Boolean('')); // false
+console.log(Boolean({})); // true
+console.log(Boolean("Abdimalik"));// false
+const money = 200;
+if(money) {
+    console.log("Don't spend it all");
+} else {
+    console.log("You should get a job");
+};
+
+let height = 1.74;
+if (height) {
+    console.log("YAY! height is defined")
+} else {
+    console.log("height is Undefined")
+}
+*/
+// Lecture 22:Equality Operators: == vs. ===
+const age = 18;
+if (age === 18) console.log("You just become an adult (strict)");
+if (age == "18") console.log("You just become an adult (loose)");
+
+const fav =  Number(prompt("what is your fav number?"));
+console.log(fav);
+console.log(typeof(fav));
+
+if (fav === 23) {  // 23 = 23 couse of Number functins wich changes strings to numbers
+    console.log("Cool 23 is an amaizing number")
+} else if(fav === 7) {
+    console.log("7 is also a cool number")
+} else if(fav === 9) {
+    console.log("9 is also a cool number")
+} else {
+    console.log("Number is not 23 or 7 or 9")
+}
