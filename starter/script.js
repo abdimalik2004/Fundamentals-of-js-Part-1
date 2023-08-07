@@ -164,3 +164,6 @@ if (fav === 23) {  // 23 = 23 couse of Number functins wich changes strings to n
 } else {
     console.log("Number is not 23 or 7 or 9")
 }
+if (fav !== 23) {
+    console.log("Why not 23");
+}
