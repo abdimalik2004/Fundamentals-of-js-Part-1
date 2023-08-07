@@ -48,7 +48,7 @@ const population = ['millionpeople'];
 const language = 'portuguese';
 console.log(description);
 console.log(`${country} is in ${continent}, and its ${number} ${population} speak ${language}`);
-*/
+
 
 //  Assigment Lecture 18 : Taking Decisions: if / else Statements
 let mycountry = 20;
@@ -57,6 +57,14 @@ console.log("Portugal's population is above average");
 // I didn't understand this assigment 
 
 // Lecture 19 was Coding Challenge #2
-
-// Assigment LECTURE 20: Type Conversion and Coercion
+*/
+// Assigment LECTURE 22:  Equality Operators: == vs. ===
+const numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
+if (numNeighbours === 1) {
+    console.log( 'Only 1 border!');
+} else if (numNeighbours === 3) {
+    console.log('More than 1 border')
+} else {
+    console.log('No borders')
+}
 
