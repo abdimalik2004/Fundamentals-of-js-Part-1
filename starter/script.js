@@ -170,3 +170,24 @@ if (fav !== 23) console.log("Why not 23");
 // LECTURE 23: Logical Operators
 it was an explanation only 
 */
+// LECTURE 24: Logical Operators
+const hasDriverLiccense = true;
+const hasGoodVision = true;
+
+console.log(hasDriverLiccense && hasGoodVision);
+console.log(hasDriverLiccense || hasGoodVision);
+
+const shouldDrive = hasDriverLiccense && hasGoodVision;
+// if (hasDriverLiccense && hasGoodVision) {
+//     console.log("Abdimalik is able to drive")
+// } else {
+//     console.log("Someone else should drive")
+// }
+
+const isTired = false;
+console.log( hasDriverLiccense || hasGoodVision || isTired);
+if (hasDriverLiccense && hasGoodVision && !isTired) {
+    console.log("Abdimalik is able to drive")
+} else {
+    console.log("Someone else should drive")
+}
