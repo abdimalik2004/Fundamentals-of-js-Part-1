@@ -178,11 +178,11 @@ console.log(hasDriverLiccense && hasGoodVision);
 console.log(hasDriverLiccense || hasGoodVision);
 
 const shouldDrive = hasDriverLiccense && hasGoodVision;
-// if (hasDriverLiccense && hasGoodVision) {
-//     console.log("Abdimalik is able to drive")
-// } else {
-//     console.log("Someone else should drive")
-// }
+if (hasDriverLiccense && hasGoodVision) {
+     console.log("Abdimalik is able to drive")
+} else {
+     console.log("Someone else should drive")
+}
 
 const isTired = false;
 console.log( hasDriverLiccense || hasGoodVision || isTired);

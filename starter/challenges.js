@@ -21,7 +21,7 @@ const BMIAbdimalik = culeskaAbdimalik / (dhirirkaAbdimalik ** 2);
 const BMIAsiya = culeskaAsiya / (dhirirkaAsiya ** 2);
 const abdimalikKaBadanAsiya = BMIAbdimalik > BMIAsiya;  
 console.log(BMIAbdimalik, BMIAsiya, abdimalikKaBadanAsiya);
-*/
+
 // CHALLENGE #2 
 const massMark = 78;
 const heightMark = 1.69;
@@ -32,7 +32,7 @@ const BMIMark = massMark / (heightMark * heightMark);
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log(BMIMark, BMIJohn);
 
-/* Write your code below. Good luck! 🙂 */
+
 console.log("Mark's BMI is higher than John's!");
 
 console.log(`mark's BMI ${massMark} is higher than John's ${massJohn}`);
@@ -43,3 +43,28 @@ if (BMIMark > BMIJohn) {
 } else {
     console.log("Jhon's BMI is higher than Mark's");
 }
+
+// CHALLENGE #3
+// in my try
+const scoreDolphins = [96, 108, 89];
+const scoreKoalas = [88, 91, 110];
+if(scoreKoalas > scoreKoalas) {
+    console.log("Dolphins win the trophy")
+} else if (scoreKoalas > scoreDolphins) {
+    console.log("Koalas win the trophy")
+} else {
+    console.log("Both win the trophy")
+}
+
+// How the teacher solve it 
+const scoreDolphins = (96 + 108 + 89) /3
+const scoreKoalas = (88 + 91 + 110) /3;
+console.log(scoreDolphins, scoreKoalas);
+if (scoreDolphins > scoreKoalas) {
+    console.log("Dolphins win the trophy")
+} else if (scoreKoalas > scoreDolphins) {
+    console.log("Koalas win the trophy")
+} else if (scoreDolphins === scoreKoalas) {
+    console.log("Both win the trophy")
+}
+*/
