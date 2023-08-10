@@ -169,7 +169,7 @@ if (fav !== 23) console.log("Why not 23");
 
 // LECTURE 23: Logical Operators
 it was an explanation only 
-*/
+
 // LECTURE 24: Logical Operators
 const hasDriverLiccense = true;
 const hasGoodVision = true;
@@ -191,3 +191,45 @@ if (hasDriverLiccense && hasGoodVision && !isTired) {
 } else {
     console.log("Someone else should drive")
 }
+
+const day = 'monday';
+switch(day) {
+    case 'monday':
+        console.log('Plan course structre');
+        console.log('Go to coding meetup');
+        break;
+    case 'tuesday':
+        console.log('prepare theory ');
+        break;
+    case 'wednesday':
+    case 'thrusday':
+        console.log('write code examples');
+        break
+    case 'friday':
+        console.log('Record videos');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('enjoy the weekend');
+        break;
+    default:
+        console.log('Not a valid day')
+}
+
+
+if (day === 'friday') {
+    console.log('Plan course structre');
+    console.log('Go to coding meetup');
+} else if (day === 'tuesday') {
+    console.log('prepare theory ');
+}  else if (day === 'wednesday' || 'thrusday') {
+    console.log('write code examples');
+}  else if (day === 'friday') {
+    console.log('Record videos');
+}  else if (day === 'saturday' || 'sunday') {
+    console.log('enjoy the weekend');
+} else {
+    console.log('Not a valid day');
+}
+*/
+// LECTURE 26: Statements and Expressions
