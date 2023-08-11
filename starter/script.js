@@ -191,7 +191,7 @@ if (hasDriverLiccense && hasGoodVision && !isTired) {
 } else {
     console.log("Someone else should drive")
 }
-
+// LECTURE 26: switch statement
 const day = 'monday';
 switch(day) {
     case 'monday':
@@ -231,5 +231,26 @@ if (day === 'friday') {
 } else {
     console.log('Not a valid day');
 }
+
+// LECTURE 27: Statements and Expressions
+// was explanation
+// LECTURE 28: The Conditional (Ternary) Operator
+const age = 19;
+// age >= 18 ? console.log('I like to drink tea') :
+// console.log('I like to drink water');
+
+const drink = age >= 18 ? 'tea' : 'water';
+console.log(drink);
+
+let drink2;
+if (age >= 18) {
+    drink2 = 'tea'
+} else {
+    drink2 = 'water'
+}
+console.log(drink2);
+
+console.log('I like to drink ${age >= 18 ? "tea" : "water"}');
+// LECTURE 28 and 29 were coding challenge and challenge solution
+// LECTURE 30  was explanation of how different js releases interact and work 
 */
-// LECTURE 26: Statements and Expressions
