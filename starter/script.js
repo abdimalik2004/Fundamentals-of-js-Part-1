@@ -249,8 +249,6 @@ if (age >= 18) {
     drink2 = 'water'
 }
 console.log(drink2);
-
-
 console.log('I like to drink ${age >= 18 ? "tea" : "water"}');
 // LECTURE 28 and 29 were coding challenge and challenge solution
 // LECTURE 30  was explanation of how different js releases interact and work 
